@@ -1,4 +1,4 @@
-package com.example.amrshopbd;
+package com.samulit.amrshopbd;
 
 import org.junit.Test;
 

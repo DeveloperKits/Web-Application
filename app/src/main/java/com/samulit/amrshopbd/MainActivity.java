@@ -1,4 +1,4 @@
-package com.example.amrshopbd;
+package com.samulit.amrshopbd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,10 +10,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
 import android.widget.TextView;
-
-import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 

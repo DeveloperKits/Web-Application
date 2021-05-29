@@ -1,7 +1,8 @@
-package com.example.amrshopbd;
+package com.samulit.amrshopbd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.webkit.WebSettings;
@@ -12,6 +13,7 @@ public class FinalActivity extends AppCompatActivity {
 
     private WebView myWebView;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,9 +26,10 @@ public class FinalActivity extends AppCompatActivity {
         // For JavaScript Enable
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webSettings.getAllowContentAccess();
     }
 
-    public class myWebClient extends WebViewClient{
+    public static class myWebClient extends WebViewClient{
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon){
             super.onPageStarted(view,url,favicon);

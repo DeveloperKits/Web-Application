@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.amrshopbd">
+    package="com.samulit.amrshopbd">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,10 +11,10 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FinalActivity"></activity>
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".secondSmsActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.samulit.amrshopbd.FinalActivity" />
+        <activity android:name="com.samulit.amrshopbd.MainActivity2" />
+        <activity android:name="com.samulit.amrshopbd.secondSmsActivity" />
+        <activity android:name="com.samulit.amrshopbd.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
