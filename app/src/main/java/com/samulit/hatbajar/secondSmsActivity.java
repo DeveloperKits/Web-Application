@@ -1,4 +1,4 @@
-package com.samulit.amrshopbd;
+package com.samulit.hatbajar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,17 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity2 extends AppCompatActivity {
+public class secondSmsActivity extends AppCompatActivity {
 
     public void nextPage(View view){
-        Intent goToFinal = new Intent(MainActivity2.this, FinalActivity.class);
-        startActivity(goToFinal);
+        Intent goToThird = new Intent(secondSmsActivity.this, MainActivity2.class);
+        startActivity(goToThird);
         finish();
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_second_sms);
+
     }
 }
