@@ -10,9 +10,9 @@
 
     <View
         android:id="@+id/logo"
-        android:layout_width="218dp"
-        android:layout_height="203dp"
-        android:background="@drawable/logo"
+        android:layout_width="245dp"
+        android:layout_height="199dp"
+        android:background="@drawable/logo2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

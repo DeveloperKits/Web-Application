@@ -18,17 +18,17 @@
 
         <View
             android:id="@+id/view"
-            android:layout_width="219dp"
-            android:layout_height="223dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="74dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="68dp"
-            android:layout_marginBottom="360dp"
-            android:background="@drawable/logo" />
+            android:layout_marginStart="111dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="405dp"
+            android:background="@drawable/logo2" />
 
         <TextView
             android:id="@+id/textView3"
@@ -38,20 +38,20 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="11dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="292dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="20dp"
             android:layout_marginBottom="193dp"
             android:fontFamily="monospace"
             android:text="@string/best_place_for_quick_shopping_bye_our_products_keep_smiling"
             android:textAlignment="center"
             android:textColor="#131212"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="291dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
@@ -65,9 +65,9 @@
             android:gravity="center"
             android:onClick="nextPage"
             android:text="Let Start"
-            android:backgroundTint="#003E38"
+            android:backgroundTint="#009F4D"
             android:textColor="#FFFFFF"
-            android:textSize="28sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.samulit.hatbajar">
+    package="com.samulit.srworld">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,10 +11,10 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.samulit.hatbajar.FinalActivity" />
-        <activity android:name="com.samulit.hatbajar.MainActivity2" />
-        <activity android:name="com.samulit.hatbajar.secondSmsActivity" />
-        <activity android:name="com.samulit.hatbajar.MainActivity">
+        <activity android:name="com.samulit.srworld.FinalActivity" />
+        <activity android:name="com.samulit.srworld.MainActivity2" />
+        <activity android:name="com.samulit.srworld.secondSmsActivity" />
+        <activity android:name="com.samulit.srworld.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
