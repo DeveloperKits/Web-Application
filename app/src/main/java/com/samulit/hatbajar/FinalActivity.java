@@ -1,4 +1,4 @@
-package com.samulit.srworld;
+package com.samulit.hatbajar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,7 +25,7 @@ public class FinalActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webSettings.getAllowContentAccess();
 
-        myWebView.loadUrl("https://srworldbd.com/");
+        myWebView.loadUrl("https://hatbajarbd.com/");
         myWebView.setWebViewClient(new WebViewClient());
     }
 

@@ -87,7 +87,7 @@
             android:gravity="center"
             android:onClick="nextPage"
             android:text="Next"
-            android:backgroundTint="#00A608"
+            android:backgroundTint="#027708"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold"

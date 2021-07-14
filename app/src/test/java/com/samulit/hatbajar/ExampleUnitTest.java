@@ -1,4 +1,4 @@
-package com.samulit.srworld;
+package com.samulit.hatbajar;
 
 import org.junit.Test;
 
