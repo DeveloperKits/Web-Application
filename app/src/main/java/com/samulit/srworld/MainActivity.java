@@ -10,12 +10,13 @@ import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     Animation top_Anim, bottom_Anim;
-    View logo;
+    ImageView logo;
     TextView text;
     boolean firstTime;
 
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         top_Anim = AnimationUtils.loadAnimation(this, R.anim.top_animation);
         bottom_Anim = AnimationUtils.loadAnimation(this, R.anim.bottom_animation);
 
-        logo = (View) findViewById(R.id.logo);
+        logo = findViewById(R.id.logo);
         text = (TextView) findViewById(R.id.text);
 
         logo.setAnimation(top_Anim);
